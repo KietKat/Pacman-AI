@@ -62,9 +62,7 @@ $ python pacman.py -l trickySearch -p AStarFoodSearchAgent
 
 ## PHASE 2: Multi-Agent Pacman (Adversarial Search)
 - Minimax Algorithm
-```
-
-```
+![Pacman Minimax](https://inst.eecs.berkeley.edu/~cs188/fa23/assets/projects/minimax_depth.png)
 - Alpha-beta pruning
 ```
 The AlphaBetaAgent minimax values should be identical to the MinimaxAgent minimax values,
