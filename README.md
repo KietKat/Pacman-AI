@@ -60,30 +60,6 @@ depend on the placement of walls, regular food and Pacman.
 $ python pacman.py -l trickySearch -p AStarFoodSearchAgent
 ```
 
-
-## HW2 Multi-Agent
-- ReflexAgent: 
-A capable reflex agent will have to consider both food locations and ghost locations to perform well.
-```
-$ python pacman.py --frameTime 0 -p ReflexAgent -k 2
-$ python pacman.py -p ReflexAgent -l openClassic -n 10 -q
-```
-- MinimaxAgent: 
-Write an adversarial search agent in the provided MinimaxAgent class stub in multiAgents.py
-```
-$ python pacman.py -p MinimaxAgent -l minimaxClassic -a depth=4
-```
-- AlphaBetaAgent: 
-Make a new agent that uses alpha-beta pruning to more efficiently explore the minimax tree.
-```
-$ python pacman.py -p AlphaBetaAgent -l trappedClassic -a depth=3 -q -n 10
-```
-- Expectimax: 
-ExpectimaxAgent is useful for modeling probabilistic behavior of agents who may make suboptimal choices.
-```
-$ python pacman.py -l smallClassic -p ExpectimaxAgent -a evalFn=better -q -n 30
-```
-
 ## Credits
 - This is the homework project for the course Intro to Artificial Intelligence, UC Berkeley (2023 Fall)
 - Author: Kyle Nguyen
